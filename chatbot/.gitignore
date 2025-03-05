@@ -1,3 +1,5 @@
 .env
+.env
 /static
+/chatbot
 /__pycache__
