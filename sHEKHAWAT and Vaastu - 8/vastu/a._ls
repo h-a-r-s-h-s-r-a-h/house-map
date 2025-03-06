@@ -1,0 +1,12 @@
+(defun ab()
+  (setq index1 1)
+(setq new_add_group0 (list 1 2 3 4 5 6 78 9))
+(setq new 1)
+(setq temp1 0)
+(foreach chrom new_add_group0
+   (if (and (equal index1 0)(equal chrom new))
+     (setq temp1 1 )
+    )
+ )
+(princ temp1)
+  )
