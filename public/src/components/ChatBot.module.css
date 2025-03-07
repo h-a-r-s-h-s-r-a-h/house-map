@@ -1,0 +1,102 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.leftSide {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.rightSide {
+  flex: 1;
+  padding: 20px;
+}
+
+.sqFtContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.sqFtContainer label{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.sqFtInput {
+  padding: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.iconButton {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.chatHistory {
+  max-height: 60%;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chatMessage {
+  margin: 5px 0;
+}
+
+.role {
+  font-weight: bold;
+}
+
+.time {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.inputBar {
+  padding: 10px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.descriptionTable,
+.layoutTable {
+  margin-top: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.infoMessage {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

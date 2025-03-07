@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  background-color: #0e0e0e;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(39, 38, 38, 0.3);
+  z-index: 100;
+}
+
+.appName {
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ca760f, #af417e);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: transparent;
+  display: inline-block; 
+}

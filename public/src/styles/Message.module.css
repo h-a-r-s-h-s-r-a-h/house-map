@@ -1,0 +1,24 @@
+.message {
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  max-width: 75%;
+  word-wrap: break-word;
+}
+
+.user {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #4caf50;
+  color: white;
+  align-self: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
