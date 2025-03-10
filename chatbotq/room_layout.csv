@@ -1,0 +1,12 @@
+Element_Type,Name,Length,Width,X_Position,Y_Position,Rotation,Color
+Room,Living_Room,300,300,0,0,0,Blue
+Room,Bedroom_1,150,150,300,0,0,Green
+Room,Bedroom_2,150,150,300,150,0,Green
+Room,Kitchen,150,150,0,300,0,Yellow
+Room,Dining_Room,150,150,150,300,0,Orange
+Door,Main_Door,90,10,0,0,90,Brown
+Window,Living_Window,120,10,150,300,0,Gray
+Wall,East_Wall,10,600,600,0,90,Black
+Wall,West_Wall,10,600,0,0,90,Black
+Wall,North_Wall,600,10,0,600,0,Black
+Wall,South_Wall,600,10,0,0,0,Black
